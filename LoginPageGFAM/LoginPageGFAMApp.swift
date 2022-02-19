@@ -11,7 +11,7 @@ import SwiftUI
 struct LoginPageGFAMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(loginComplete: {})
         }
     }
 }
